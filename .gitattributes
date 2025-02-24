@@ -1,2 +1,4 @@
-data/processed/ filter=lfs diff=lfs merge=lfs -text
 data/processed/arxiv-abstracts-cleaned_v1.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/count_vectorizer.npz filter=lfs diff=lfs merge=lfs -text
+data/processed/arxiv-abstracts-cleaned_v2.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/tfidf_vectorizer.npz filter=lfs diff=lfs merge=lfs -text
